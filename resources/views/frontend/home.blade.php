@@ -2,620 +2,783 @@
 
 @section('content')
 
-<!--== Start Slider Area Wrapper ==-->
-<div class="slider-area-wrapper">
-    <div id="rev_slider_11_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="business-classic"
-        data-source="gallery">
-        <div id="rev_slider_11_1" class="rev_slider fullwidthabanner" data-version="5.4.7">
-            <ul>
-                <!-- SLIDE  -->
-                <li data-index="rs-27" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
-                    data-thumb="{{ asset('frontend/assets/img/slider/01_thumb.jpg') }}" data-rotate="0" data-saveperformance="off"
-                    data-title="Slide">
-                    <!-- MAIN IMAGE -->
-                    <img src="{{ asset('frontend/assets/img/slider/01.jpg') }}" alt="Businex" data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
+    <!--== Start Slider Area Wrapper ==-->
+    <div class="slider-area-wrapper">
+        <div id="rev_slider_11_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="business-classic"
+            data-source="gallery">
+            <div id="rev_slider_11_1" class="rev_slider fullwidthabanner" data-version="5.4.7">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-27" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0"
+                        data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
+                        data-thumb="{{ asset('frontend/assets/img/slider/01_thumb.jpg') }}" data-rotate="0"
+                        data-saveperformance="off" data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('frontend/assets/img/slider/01.jpg') }}" alt="Businex"
+                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            data-bgparallax="15" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
 
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme slide-heading" data-x="['left','left','left','left']"
-                        data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
-                        data-voffset="['250','204','200','201']" data-fontsize="['60','60','50','30']"
-                        data-fontweight="['600']" data-lineheight="['70','70','60','40']"
-                        data-width="['650','650','600','320']" data-height="none" data-whitespace="normal"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":10,"split":"lines","splitdelay":0.1,"speed":600,"split_direction":"forward","frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['left']">
-                        GROW YOUR <br> BUSINESS WITH US
-                    </div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme slide-heading" data-x="['left','left','left','left']"
+                            data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
+                            data-voffset="['250','204','200','201']" data-fontsize="['60','60','50','30']"
+                            data-fontweight="['600']" data-lineheight="['70','70','60','40']"
+                            data-width="['650','650','600','320']" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"lines","splitdelay":0.1,"speed":600,"split_direction":"forward","frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left']">
+                            YOUR SAFETY <br> OUR PRIORITY
+                        </div>
 
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme slide-txt" data-x="['left','left','left','left']"
-                        data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
-                        data-voffset="['400','370','370','300']" data-fontsize="['16','20','20','20']"
-                        data-fontweight="['400','400','400','400']" data-width="['600','600','600','320']"
-                        data-height="none" data-whitespace="normal" data-visibility="['on','on','on','on']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":360,"split":"lines","splitdelay":0.1,"speed":500,"split_direction":"forward","frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                        Businex always try to provide the best Business Solutions for Clinets to grow up their Business
-                        very sharply and smoothly.
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme slide-txt" data-x="['left','left','left','left']"
+                            data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
+                            data-voffset="['400','370','370','300']" data-fontsize="['16','20','20','20']"
+                            data-fontweight="['400','400','400','400']" data-width="['600','600','600','320']"
+                            data-height="none" data-whitespace="normal" data-visibility="['on','on','on','on']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":360,"split":"lines","splitdelay":0.1,"speed":500,"split_direction":"forward","frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                            Bridging the security gap with disciplined expertise and proven operatives.
 
-                    </div>
+                        </div>
 
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption Button-Outline-Secondary rev-btn" id="slide-27-layer-11"
-                        data-x="['left','left','left','left']" data-hoffset="['135','135','45','40']"
-                        data-y="['top','top','top','top']" data-voffset="['490','470','490','465']" data-width="none"
-                        data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-                        data-responsive="off"
-                        data-frames='[{"delay":650,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"350","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(8, 11, 26);"}]'
-                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[40,40,40,30]" data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[40,40,40,30]">Learn More
-                    </div>
-                </li>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption Button-Outline-Secondary rev-btn" id="slide-27-layer-11"
+                            data-x="['left','left','left','left']" data-hoffset="['135','135','45','40']"
+                            data-y="['top','top','top','top']" data-voffset="['490','470','490','465']" data-width="none"
+                            data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
+                            data-responsive="off"
+                            data-frames='[{"delay":650,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"350","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(8, 11, 26);"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[40,40,40,30]" data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[40,40,40,30]">Learn More
+                        </div>
+                    </li>
 
-                <!-- SLIDE  -->
-                <li data-index="rs-28" data-transition="slidingoverlayvertical,slidingoverlayleft,slideoverup"
-                    data-slotamount="default,default,default" data-hideafterloop="0" data-hideslideonmobile="off"
-                    data-easein="default,default,default" data-easeout="default,default,default"
-                    data-masterspeed="default,default,default" data-thumb="{{ asset('frontend/assets/img/slider/02_thumb.jpg') }}"
-                    data-rotate="0,0,0" data-saveperformance="off" data-title="Slide">
-                    <!-- MAIN IMAGE -->
-                    <img src="{{ asset('frontend/assets/img/slider/02.jpg') }}" alt="Businex" data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-28" data-transition="slidingoverlayvertical,slidingoverlayleft,slideoverup"
+                        data-slotamount="default,default,default" data-hideafterloop="0" data-hideslideonmobile="off"
+                        data-easein="default,default,default" data-easeout="default,default,default"
+                        data-masterspeed="default,default,default"
+                        data-thumb="{{ asset('frontend/assets/img/slider/02_thumb.jpg') }}" data-rotate="0,0,0"
+                        data-saveperformance="off" data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('frontend/assets/img/slider/02.jpg') }}" alt="Businex"
+                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            data-bgparallax="15" class="rev-slidebg" data-no-retina>
 
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme slide-heading" data-x="['left','left','left','left']"
-                        data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
-                        data-voffset="['250','204','200','201']" data-fontsize="['60','60','50','30']"
-                        data-fontweight="['600']" data-lineheight="['70','70','60','40']"
-                        data-width="['650','650','600','320']" data-height="none" data-whitespace="normal"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":10,"split":"chars","splitdelay":0.1,"speed":1000,"split_direction":"forward","frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['left']">
-                        INVEST MONEY <br> WITH US
-                    </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme slide-heading" data-x="['left','left','left','left']"
+                            data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
+                            data-voffset="['250','204','200','201']" data-fontsize="['60','60','50','30']"
+                            data-fontweight="['600']" data-lineheight="['70','70','60','40']"
+                            data-width="['650','650','600','320']" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"chars","splitdelay":0.1,"speed":1000,"split_direction":"forward","frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left']">
+                            INVEST MONEY <br> WITH US
+                        </div>
 
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption tp-resizeme slide-txt" data-x="['left','left','left','left']"
-                        data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
-                        data-voffset="['400','370','370','300']" data-fontsize="['16','20','20','20']"
-                        data-fontweight="['400','400','400','400']" data-width="['600','600','600','320']"
-                        data-height="none" data-whitespace="normal" data-visibility="['on','on','on','on']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":360,"split":"lines","splitdelay":0.1,"speed":500,"split_direction":"forward","frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                        Businex always try to provide the best Business Solutions for Clinets to grow up their Business
-                        very sharply and smoothly.
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption tp-resizeme slide-txt" data-x="['left','left','left','left']"
+                            data-hoffset="['135','135','40','40']" data-y="['top','top','top','top']"
+                            data-voffset="['400','370','370','300']" data-fontsize="['16','20','20','20']"
+                            data-fontweight="['400','400','400','400']" data-width="['600','600','600','320']"
+                            data-height="none" data-whitespace="normal" data-visibility="['on','on','on','on']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":360,"split":"lines","splitdelay":0.1,"speed":500,"split_direction":"forward","frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                            Businex always try to provide the best Business Solutions for Clinets to grow up their Business
+                            very sharply and smoothly.
 
-                    </div>
+                        </div>
 
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption Button-Outline-Secondary rev-btn" data-x="['left','left','left','left']"
-                        data-hoffset="['135','135','45','40']" data-y="['top','top','top','top']"
-                        data-voffset="['490','470','490','465']" data-width="none" data-height="none"
-                        data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off"
-                        data-frames='[{"delay":650,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"350","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(8, 11, 26);"}]'
-                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[40,40,40,30]" data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[40,40,40,30]">Learn More
-                    </div>
-                </li>
-            </ul>
-            <div class="tp-bannertimer tp-bottom"></div>
-        </div>
-    </div>
-</div>
-<!--== End Slider Area Wrapper ==-->
-
-<!--== Start About Area Wrapper ==-->
-<div class="about-area-wrapper sm-top">
-    <div class="container">
-        <div class="row align-items-lg-center">
-            <div class="col-md-6 col-lg-5">
-                <figure class="about-thumb">
-                    <img src="{{ asset('frontend/assets/img/about.jpg') }}" alt="Businex-About" />
-                </figure>
-            </div>
-
-            <div class="col-md-6 col-lg-7">
-                <div class="about-content">
-                    <h6>ABOUT US</h6>
-                    <h2>Provide best <br> Business Solutions</h2>
-                    <span class="about-since">Since 2010</span>
-                    <p><strong>Businex</strong> always try to provide the best Business Solutions for Clinets to
-                        grow up their Business very sharply and smoothly. We voluptatem quia
-                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                    <a href="about.html" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
-                </div>
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption Button-Outline-Secondary rev-btn" data-x="['left','left','left','left']"
+                            data-hoffset="['135','135','45','40']" data-y="['top','top','top','top']"
+                            data-voffset="['490','470','490','465']" data-width="none" data-height="none"
+                            data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off"
+                            data-frames='[{"delay":650,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"350","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(8, 11, 26);"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[40,40,40,30]" data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[40,40,40,30]">Learn More
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom"></div>
             </div>
         </div>
     </div>
-</div>
-<!--== End About Area Wrapper ==-->
+    <!--== End Slider Area Wrapper ==-->
 
-<!--== Start Feature Area Wrapper ==-->
-<div class="feature-area-wrapper sm-top">
-    <div class="container">
-        <div class="row mtn-sm-60 mtn-md-5">
-            <div class="col-md-4">
-                <div class="icon-box-item">
-                    <div class="icon-box__icon">
-                        <img src="{{ asset('frontend/assets/img/feature/01.png') }}" alt="Businex-Feature" />
-                    </div>
-                    <div class="icon-box__info">
-                        <h5>Creative Team</h5>
-                        <p>We have creative team, they always ready to help you. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="icon-box-item">
-                    <div class="icon-box__icon">
-                        <img src="{{ asset('frontend/assets/img/feature/02.png') }}" alt="Businex-Feature" />
-                    </div>
-                    <div class="icon-box__info">
-                        <h5>Best Service</h5>
-                        <p>We have creative team, they always ready to help you. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="icon-box-item">
-                    <div class="icon-box__icon">
-                        <img src="{{ asset('frontend/assets/img/feature/03.png') }}" alt="Businex-Feature" />
-                    </div>
-                    <div class="icon-box__info">
-                        <h5>Online Support</h5>
-                        <p>We have creative team, they always ready to help you. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Feature Area Wrapper ==-->
-
-<!--== Start Service Area Wrapper ==-->
-<div class="service-area-wrapper sm-top-wt">
-    <div class="service-area-top parallax" data-parallax-speed="0.75" data-bg="{{ asset('frontend/assets/img/service/service-bg.jpg') }}">
+    <!--== Start About Area Wrapper ==-->
+    <div class="about-area-wrapper sm-top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-5 m-auto text-center">
-                    <div class="section-title section-title--light">
-                        <h6>OUR SERVICES</h6>
-                        <h2 class="mb-0">We make it simple, providing best solutions</h2>
+            <div class="row align-items-lg-center">
+                <div class="col-md-6 col-lg-5">
+                    <figure class="about-thumb">
+                        <img src="{{ asset('frontend/assets/img/about.jpg') }}" alt="Businex-About" />
+                    </figure>
+                </div>
+
+                <div class="col-md-6 col-lg-7">
+                    <div class="about-content">
+                        <h6>ABOUT US</h6>
+                        <h2>Oculus Security <br> Services</h2>
+                        <span class="about-since">Since 2010</span>
+                        <p>The idea of building OSS was informed by the worrying gap existing due to the
+                            failure or lack of reliable security outfit to complement and supplement
+                            government efforts to provide adequate security to private entities. Oculus
+                            Security Services (OSS) is a family of special breeds of operatives bringing
+                            together retired Kenya Defense Forces officers and National Police Service
+                            with world class training and thorough understanding of security, individuals
+                            from other security agencies and high-end corporate world, all bound by a
+                            common eagerness; thirst for security.</p>
+                        <a href="about.html" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--== End About Area Wrapper ==-->
 
-    <div class="service-content-area">
+    <!--== Start Feature Area Wrapper ==-->
+    <div class="feature-area-wrapper sm-top">
         <div class="container">
-            <div class="row mtn-30">
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/01.jpg') }}" alt="Businex-Service" /></a>
-
-                            <figcaption class="service-txt">
-                                <h5>Creative Ideas</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link"></a>Creative Ideas</h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
-                            </div>
+            <div class="row mtn-sm-60 mtn-md-5">
+                <div class="col-md-4">
+                    <div class="icon-box-item">
+                        <div class="icon-box__icon">
+                            <img src="{{ asset('frontend/assets/img/feature/01.png') }}" alt="Businex-Feature" />
+                        </div>
+                        <div class="icon-box__info">
+                            <h5>Our Mission</h5>
+                            <p>To protect as well as empower our local communities by
+                                providing security that deters crime, keeps us safe and
+                                provides work and revenue for the local economy whilst
+                                striving to provide superior and exceptional security
+                                services across the board; making you and your
+                                property - private and business - are our first priority.</p>
                         </div>
                     </div>
-                    <!-- End Service Item -->
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/02.jpg') }}" alt="Businex-Service" /></a>
-
-                            <figcaption class="service-txt">
-                                <h5>Digital Solutions</h5>
-                            </figcaption>
-                        </figure>
-
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Digital Solutions</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
-                            </div>
+                <div class="col-md-4">
+                    <div class="icon-box-item">
+                        <div class="icon-box__icon">
+                            <img src="{{ asset('frontend/assets/img/feature/02.png') }}" alt="Businex-Feature" />
+                        </div>
+                        <div class="icon-box__info">
+                            <h5>Our Vision</h5>
+                            <p>To be the number ONE Security Company in Kenya
+                                followed with an aggressive expansion into the remainder of
+                                East and Central Africa by offering new and innovative
+                                service options as well as providing service delivery that
+                                exceeds the norm and expectations of our clients, resulting
+                                in job creation and security.</p>
                         </div>
                     </div>
-                    <!-- End Service Item -->
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/03.jpg') }}" alt="Businex-Service" /></a>
+                <div class="col-md-4">
+                    <div class="icon-box-item">
+                        <div class="icon-box__icon">
+                            <img src="{{ asset('frontend/assets/img/feature/03.png') }}" alt="Businex-Feature" />
+                        </div>
+                        <div class="icon-box__info">
+                            <h5>Our Operatives</h5>
+                            <p>Oculus Security Services (OSS) is a family of special breeds of operatives bringing
+                                together retired Kenya Defense Forces officers and National Police Service
+                                with world class training and thorough understanding of security.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Feature Area Wrapper ==-->
 
-                            <figcaption class="service-txt">
-                                <h5>Brand & Communication</h5>
-                            </figcaption>
-                        </figure>
+    <!--== Start Service Area Wrapper ==-->
+    <div class="service-area-wrapper sm-top-wt">
+        <div class="service-area-top parallax" data-parallax-speed="0.75"
+            data-bg="{{ asset('frontend/assets/img/service/service-bg.jpg') }}">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-5 m-auto text-center">
+                        <div class="section-title section-title--light">
+                            <h6>OUR SERVICES</h6>
+                            <h2>We make it simple, providing best solutions</h2>
+                            <p>Our strategy for delivery against our mission statement is rooted on our
+                                thorough understanding of the markets needs and dynamics with ability
+                                to formulate and deliver practical solutions par excellence By bringing
+                                together a strong team of former disciplined forces and experienced
+                                entrepreneurial leaders with diverse competencies and great mindsets,
+                                CSS creates an excellent avenue for attainment of strategic objectives
+                                with keen execution against specific client requirements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Brand & Communication</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
+        <div class="service-content-area">
+            <div class="container">
+                <div class="row mtn-30">
+                    <div class="col-sm-6 col-lg-4">
+                        <!-- Start Service Item -->
+                        <div class="service-item">
+                            <figure class="service-thumb">
+                                <a href="{{ route('services.manned-guarding') }}"><img
+                                        src="{{ asset('frontend/assets/img/service/01.jpg') }}" alt="Manned Services" /></a>
+
+                                <figcaption class="service-txt">
+                                    <h5>Manned Services</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="service-content">
+                                <div class="service-content-inner">
+                                    <h5><a href="{{ route('services.manned-guarding') }}" class="stretched-link">Manned
+                                            Services</a></h5>
+                                    <p>Specialized Manned guarding, Security supervisors, CCTV Controllers, Event Trained
+                                        Security Officers(ETSOs), Front Trained Security Officers(FTSOs)</p>
+                                </div>
                             </div>
                         </div>
                         <!-- End Service Item -->
                     </div>
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/04.jpg') }}" alt="Businex-Service" /></a>
+                    <div class="col-sm-6 col-lg-4">
+                        <!-- Start Service Item -->
+                        <div class="service-item">
+                            <figure class="service-thumb">
+                                <a href="{{ route('services.special-services') }}"><img
+                                        src="{{ asset('frontend/assets/img/service/02.jpg') }}"
+                                        alt="Special Services" /></a>
 
-                            <figcaption class="service-txt">
-                                <h5>Creative Strategy</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Creative Strategy</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
+                                <figcaption class="service-txt">
+                                    <h5>Special Services</h5>
+                                </figcaption>
+                            </figure>
+
+                            <div class="service-content">
+                                <div class="service-content-inner">
+                                    <h5><a href="{{ route('services.special-services') }}" class="stretched-link">Special
+                                            Services</a></h5>
+                                    <p>Covert Covers(undercover), VIP Protection / Close Client Protection, Investigations &
+                                        Risk Management, Security Based Journey Management, Escorts(armed/unarmed),
+                                        Specialized security training, Specialized Security tech solutions</p>
+                                </div>
                             </div>
                         </div>
+                        <!-- End Service Item -->
                     </div>
-                    <!-- End Service Item -->
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/05.jpg') }}" alt="Businex-Service" /></a>
+                    <div class="col-sm-6 col-lg-4">
+                        <!-- Start Service Item -->
+                        <div class="service-item">
+                            <figure class="service-thumb">
+                                <a href="{{ route('services.k9-unit') }}"><img
+                                        src="{{ asset('frontend/assets/img/service/03.jpg') }}" alt="K-9 Services" /></a>
 
-                            <figcaption class="service-txt">
-                                <h5>Marketing Policy</h5>
-                            </figcaption>
-                        </figure>
+                                <figcaption class="service-txt">
+                                    <h5>K-9 Services</h5>
+                                </figcaption>
+                            </figure>
 
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Marketing Policy</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
+                            <div class="service-content">
+                                <div class="service-content-inner">
+                                    <h5><a href="{{ route('services.k9-unit') }}" class="stretched-link">K-9 Services</a>
+                                    </h5>
+                                    <p>Guard Dogs, Explosive Detection Dogs (EDD), Narcotics Detection Dogs (NDD)</p>
+                                </div>
                             </div>
+                            <!-- End Service Item -->
                         </div>
-                    </div>
-                    <!-- End Service Item -->
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="{{ asset('frontend/assets/img/service/06.jpg') }}" alt="Businex-Service" /></a>
-
-                            <figcaption class="service-txt">
-                                <h5>Campaign & PR</h5>
-                            </figcaption>
-                        </figure>
-
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Campaign & PR</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing
-                                    elit. Asdipiscing elit. Consectetur adipisicing hastech.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Service Area Wrapper ==-->
-
-<!--== Start Testimonial Area Wrapper ==-->
-<div class="testimonial-area bg-offwhite sp-y sm-top">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="section-title mb-0">
-                    <h6>TESTIMONIALS</h6>
-                    <h2>Our Customer <br>Loves What we do</h2>
-                    <p><strong>Businex</strong> always try to provide the best Business Solutions for Clinets
-                        to grow up their Business very sharply and smoothly. We voluptatem
-                        quia voluptas sit aspernatur aut odit fugit, sed quia consequuur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                </div>
-
-                <div class="testimonial-carousel-dots"></div>
-            </div>
-
-            <div class="col-lg-6 ms-auto">
-                <div class="testimonial-content-wrap">
-                    <div class="testimonial-content">
-                        <!-- Start Testimonial Item -->
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/assets/img/testimonial/client-01.jpg') }}" alt="Businex" />
-                            </div>
-
-                            <div class="testimonial-txt">
-                                <img src="{{ asset('frontend/assets/img/icons/quote.png') }}" alt="Businex" />
-                                <p>Very much happy with provide the best
-                                    Business Solutions for Clients to grow up
-                                    their Business very sharply.</p>
-                                <h5 class="client-name">David Loyed</h5>
-                            </div>
-                        </div>
-                        <!-- End Testimonial Item -->
-
-                        <!-- Start Testimonial Item -->
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/assets/img/testimonial/client-02.jpg') }}" alt="Businex" />
-                            </div>
-
-                            <div class="testimonial-txt">
-                                <img src="{{ asset('frontend/assets/img/icons/quote.png') }}" alt="Businex" />
-                                <p>Very much happy with provide the best
-                                    Business Solutions for Clients to grow up
-                                    their Business very sharply.</p>
-                                <h5 class="client-name">Alex Tuntuni</h5>
-                            </div>
-                        </div>
-                        <!-- End Testimonial Item -->
-
-                        <!-- Start Testimonial Item -->
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/assets/img/testimonial/client-03.jpg') }}" alt="Businex" />
-                            </div>
-
-                            <div class="testimonial-txt">
-                                <img src="{{ asset('frontend/assets/img/icons/quote.png') }}" alt="Businex" />
-                                <p>Very much happy with provide the best
-                                    Business Solutions for Clients to grow up
-                                    their Business very sharply.</p>
-                                <h5 class="client-name">John Fault</h5>
-                            </div>
-
-                        </div>
-                        <!-- End Testimonial Item -->
+                        <!-- End Service Item -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--== End Testimonial Area Wrapper ==-->
+    <!--== End Service Area Wrapper ==-->
 
-<!--== Start Team Area Wrapper ==-->
-<div class="team-area-wrapper bg-img sp-y" data-bg="{{ asset('frontend/assets/img/team/team-bg.jpg') }}">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-4">
-                <div class="section-title section-title--light mb-lg-0">
-                    <h6>Creative Team</h6>
-                    <h2>We have great <br>creative team</h2>
-                    <p><strong>Businex</strong> always try to provide the best Business Solutions
-                        for Clients to grow up their Business sharp and smoothly.
-                        We voluptatem voluptas aspernatur aut odit fugit, quia consequuur magni dolores eos qui ratione.
+    <!--== Start Testimonial Area Wrapper ==-->
+    <div class="testimonial-area bg-offwhite sp-y sm-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-title mb-0">
+                        <h6>TRAINING PROGRAMME</h6>
+                        <h2>OSS Training Institute</h2>
+                        <p>OSS Training Institute is a subsidiary institution under Oculus security services Ltd. solely
+                            focusing on the training of
+                            security officers in an extensive in-house training based on a formal curriculum. The following
+                            are some of the modules
+                            covered for ideal security management.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ms-auto">
+                    <div class="testimonial-content-wrap">
+                        <div class="training-modules" style="background: #fff; padding: 30px; border-radius: 5px;">
+                            <h4>Security Management and Guarding Modules</h4>
+                            <ul style="list-style-type: disc; padding-left: 20px;">
+                                <li>Security management</li>
+                                <li>Crime Prevention</li>
+                                <li>Access and Egress Control</li>
+                                <li>Criminal law and criminal procedures</li>
+                                <li>Counter-Terrorism</li>
+                                <li>Public relations</li>
+                                <li>Intelligence gathering</li>
+                                <li>Communication skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-4">
+                    <div class="training-modules"
+                        style="background: #fff; padding: 30px; border-radius: 5px; height: 100%;">
+                        <h4><i class="mdi mdi-account-search"></i> RECRUITMENT & VETTING</h4>
+
+                        <h5 class="mt-3">RECRUITMENT REQUIREMENTS:</h5>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><i class="mdi mdi-check-circle-outline"></i> Oral and written interview test</li>
+                            <li><i class="mdi mdi-check-circle-outline"></i> Background Checks</li>
+                            <li><i class="mdi mdi-check-circle-outline"></i> Physical fitness test</li>
+                            <li><i class="mdi mdi-check-circle-outline"></i> Medical fitness test</li>
+                        </ul>
+
+                        <h5 class="mt-3">Documents:</h5>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><i class="mdi mdi-file-document"></i> 2 current Passport photos</li>
+                            <li><i class="mdi mdi-file-document"></i> National ID</li>
+                            <li><i class="mdi mdi-file-document"></i> Birth certificate</li>
+                            <li><i class="mdi mdi-file-document"></i> 3 Referees</li>
+                            <li><i class="mdi mdi-file-document"></i> Valid Certificate of good conduct</li>
+                            <li><i class="mdi mdi-file-document"></i> KCPE & KCSE certificate</li>
+                            <li><i class="mdi mdi-file-document"></i> School Leaving certificates</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="training-modules"
+                        style="background: #fff; padding: 30px; border-radius: 5px; height: 100%;">
+                        <h4><i class="mdi mdi-shield-account"></i> SECURITY OFFICER PROFILE</h4>
+
+                        <p class="mt-3">We Recruit highly qualified Trainees with the following specifications:</p>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><i class="mdi mdi-account-check"></i> 24-45 years</li>
+                            <li><i class="mdi mdi-account-check"></i> Form 4, D+ and above</li>
+                            <li><i class="mdi mdi-account-check"></i> Good written and spoken English & Kiswahili</li>
+                            <li><i class="mdi mdi-account-check"></i> Well groomed and presentable</li>
+                            <li><i class="mdi mdi-account-check"></i> Village sketch maps, nuclear and extended family
+                                background, employment background, referee checks etc.</li>
+                        </ul>
+
+                        <p class="mt-3">Our security officers undergo 2 weeks basic Guarding Course (BGC) covering:</p>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><i class="mdi mdi-security"></i> Security threats/ Protection of information</li>
+                            <li><i class="mdi mdi-security"></i> Introduction to Criminal Offences</li>
+                            <li><i class="mdi mdi-security"></i> Arrest and restrain by Private security Operatives</li>
+                            <li><i class="mdi mdi-security"></i> Roles and duties of security officers</li>
+                            <li><i class="mdi mdi-security"></i> Discipline</li>
+                            <li><i class="mdi mdi-security"></i> Vetting/observations</li>
+                            <li><i class="mdi mdi-security"></i> Customer care/public relations</li>
+                            <li><i class="mdi mdi-security"></i> Occurrence book and report writing</li>
+                            <li><i class="mdi mdi-security"></i> Patrolling techniques</li>
+                            <li><i class="mdi mdi-security"></i> Handling of crime scenes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Testimonial Area Wrapper ==-->
+
+    <!--== Start Team Area Wrapper ==-->
+    <div class="team-area-wrapper sp-y" style="background-color: #fff;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-10 m-auto text-center">
+                    <div class="section-title">
+                        <h6>MEET OUR TEAM</h6>
+                        <h2>Quality Management Team</h2>
+                        <p style="color: #333;">Our Quality Management Team is committed
+                            to ensuring that every service we deliver
+                            consistently meets and exceeds client
+                            expectations. Through robust quality control
+                            systems, regular audits, and continuous
+                            improvement initiatives, the team upholds
+                            the highest standards of professionalism,
+                            compliance, and service excellence. By
+                            closely monitoring performance, engaging
+                            clients for feedback, and proactively
+                            addressing gaps, our Quality Management
+                            Team ensures reliability, consistency, and
+                            value in all our operations-reinforcing our
+                            commitment to quality, trust, and long-term
+                            partnerships.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Member 1 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div style="display: flex; align-items: flex-start;">
+                        <div style="flex-shrink: 0; margin-right: 20px;">
+                            <img src="{{ asset('frontend/assets/img/team/01.jpg') }}" alt="Brian Ngetich"
+                                style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 1px solid #333;">
+                        </div>
+                        <div>
+                            <h5
+                                style="text-transform: uppercase; font-weight: bold; font-family: sans-serif; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 5px; font-size: 16px; color: #000;">
+                                MANAGING DIRECTOR
+                            </h5>
+                            <div style="font-weight: bold; color: #666; font-size: 14px; margin-bottom: 10px;">
+                                Brian Ngetich
+                            </div>
+                            <p
+                                style="text-align: left; font-family: sans-serif; line-height: 1.5; font-size: 13px; color: #333;">
+                                Mr Ngetich provides visionary leadership founded on integrity, industry expertise, and an
+                                unwavering commitment to excellence in security services. With a strong understanding of
+                                risk management, operational discipline, and client-focused service delivery, He drives
+                                strategic growth while ensuring the highest standards of professionalism and compliance.
+                                Under this leadership,
+                                the company has built a reputation for reliability, innovation, and ethical
+                                conduct-fostering a strong organizational culture that prioritizes safety,
+                                accountability, and long-term client partnerships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div style="display: flex; align-items: flex-start;">
+                        <div style="flex-shrink: 0; margin-right: 20px;">
+                            <img src="{{ asset('frontend/assets/img/team/02.jpg') }}" alt="Fred Soita"
+                                style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 1px solid #333;">
+                        </div>
+                        <div>
+                            <h5
+                                style="text-transform: uppercase; font-weight: bold; font-family: sans-serif; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 5px; font-size: 16px; color: #000;">
+                                OPERATIONS DIRECTOR
+                            </h5>
+                            <div style="font-weight: bold; color: #666; font-size: 14px; margin-bottom: 10px;">
+                                Fred Soita
+                            </div>
+                            <p
+                                style="text-align: left; font-family: sans-serif; line-height: 1.5; font-size: 13px; color: #333;">
+                                Fred brings over 25 years of extensive experience in the private security industry,
+                                providing seasoned leadership grounded in deep operational knowledge and practical field
+                                expertise. With a proven track record in managing complex security operations, personnel
+                                deployment, and risk mitigation strategies, the Director ensures seamless service delivery
+                                across all
+                                assignments. This wealth of experience translates into strong command
+                                structures, disciplined teams, and efficient operational systems-guaranteeing
+                                consistency, responsiveness, and high standards of security performance for
+                                our clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div style="display: flex; align-items: flex-start;">
+                        <div style="flex-shrink: 0; margin-right: 20px;">
+                            <img src="{{ asset('frontend/assets/img/team/03.jpg') }}" alt="Rebecca Kathure"
+                                style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 1px solid #333;">
+                        </div>
+                        <div>
+                            <h5
+                                style="text-transform: uppercase; font-weight: bold; font-family: sans-serif; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 5px; font-size: 16px; color: #000;">
+                                FINANCE DIRECTOR
+                            </h5>
+                            <div style="font-weight: bold; color: #666; font-size: 14px; margin-bottom: 10px;">
+                                Rebecca Kathure
+                            </div>
+                            <p
+                                style="text-align: left; font-family: sans-serif; line-height: 1.5; font-size: 13px; color: #333;">
+                                Our Finance Director is a Certified Accountant with over 15 years of solid experience in
+                                accounting, financial management, and regulatory compliance. Bringing strong financial
+                                discipline and strategic insight to the organization, the Director oversees budgeting,
+                                payroll, audits, and financial reporting with
+                                accuracy and transparency. This expertise ensures sound financial controls,
+                                timely statutory compliance, and sustainable growth-providing clients and
+                                partners with confidence in the company's stability, accountability, and
+                                professional governance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Team Area Wrapper ==-->
+
+    <!--== Start Security Policy Area Wrapper ==-->
+    <div class="blog-area-wrapper sm-top" style="background-color: #f8f9fa; padding-bottom: 70px; padding-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h6>OUR SECURITY POLICY</h6>
+                        <p style="max-width: 800px; margin: auto;">Oculus security services Ltd had fully studied and
+                            understood the information of security risks assignment and all challenges faces risk assessment
+                            to enables us execute and deliver good services to our client's. This plan ensures that
+                            appropriate mitigation strategies are implemented correctly as per our recommendations. Oculus
+                            security services Ltd will work with you hand in hand to assess Tree Shade policies, processes,
+                            and technologies to identify weaknesses, categorize risks, and recommend improvements. This
+                            service helps to secure your environment and improve compliance by providing a comprehensive
+                            assessment of each important aspect of your compound' security program to include but not
+                            limited to:</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mtn-35">
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Internal Controls</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">External Controls</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Physical security</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Policies and procedures</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Vulnerabilities and threats</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Tour of duty.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Security Policy Area Wrapper ==-->
+
+    <!--== Start Security Operational Procedures Area Wrapper ==-->
+    <div class="service-area-wrapper sm-top" style="padding-bottom: 70px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h6>OUR SECURITY OPERATIONAL PROCEDURES</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="procedure-item">
+                        <h5>Incident Detection & Reporting</h5>
+                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
+                            <li><i class="mdi mdi-check"></i> Guards Identify Incident</li>
+                            <li><i class="mdi mdi-check"></i> Secure the Scene</li>
+                            <li><i class="mdi mdi-check"></i> Report to Control Room</li>
+                        </ul>
+                        <p>All security incidents are immediately detected or identified by guards on duty, who prioritize
+                            safety and secure the scene while promptly reporting to the control room. The guard provides
+                            clear details on the nature, location, and severity of the incident, maintaining continuous
+                            communication until further instructions are given.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="procedure-item">
+                        <h5>Control Room & Backup Dispatch</h5>
+                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
+                            <li><i class="mdi mdi-check"></i> Log & Assess Incident</li>
+                            <li><i class="mdi mdi-check"></i> Dispatch Backup Team</li>
+                            <li><i class="mdi mdi-check"></i> Guide & Monitor Response</li>
+                        </ul>
+                        <p>Upon receipt of the report, the control room logs the incident, assesses its seriousness, and
+                            initiates an appropriate response. This includes issuing real-time guidance to the guard,
+                            notifying supervisors, and dispatching backup or rapid response teams to reinforce the site and
+                            restore control where necessary.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="procedure-item">
+                        <h5>Investigation & Police Reporting</h5>
+                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
+                            <li><i class="mdi mdi-check"></i> Engage Law Enforcement</li>
+                            <li><i class="mdi mdi-check"></i> Handover Evidence</li>
+                            <li><i class="mdi mdi-check"></i> Document & Review</li>
+                        </ul>
+                        <p>For major incidents or criminal cases, police are promptly engaged, and suspects, evidence, and
+                            scene details are formally handed over. A detailed incident and investigation report is
+                            prepared, reviewed by management, and shared with the client, with corrective actions
+                            implemented to strengthen security and prevent recurrence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Security Operational Procedures Area Wrapper ==-->
+
+    <!--== Start Technical Services Area Wrapper ==-->
+    <div class="technical-services-area-wrapper sm-top" style="background-color: #f8f9fa; padding: 70px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h6>TECHNICAL SERVICES</h6>
+                        <h2>Technology Solutions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul style="list-style: none; padding-left: 0; font-size: 16px;">
+                        <li style="margin-bottom: 15px;">📹 CCTV installation & monitoring</li>
+                        <li style="margin-bottom: 15px;">🚨 Alarms installation & response</li>
+                        <li style="margin-bottom: 15px;">🚪 Access control, biometrics & turnstiles</li>
+                        <li style="margin-bottom: 15px;">🔥 Fire Alarm systems, Fire Suppression Systems</li>
+                        <li style="margin-bottom: 15px;">⚡ Electric and razor fences</li>
+                        <li style="margin-bottom: 15px;">🚶‍♂️ Walk through detectors</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul style="list-style: none; padding-left: 0; font-size: 16px;">
+                        <li style="margin-bottom: 15px;">🚗 Vehicle tracking</li>
+                        <li style="margin-bottom: 15px;">🚚 Fleet Management & Tagging</li>
+                        <li style="margin-bottom: 15px;">💣 Bomb detectors</li>
+                        <li style="margin-bottom: 15px;">☢️ X-ray machines</li>
+                        <li style="margin-bottom: 15px;">🛰️ Tracking Services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Technical Services Area Wrapper ==-->
+
+    <!--== Start Clients Area Wrapper ==-->
+    <div class="brand-logo-area sm-top" style="padding-bottom: 70px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h6>SOME OF OUR CLIENTS</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>International Organizations</h5>
+                    <p>Grupotec plant in Eldoret, Walter Reed US Army Research Centre Kericho and Kisumu, CDC Kisumu,
+                        African Population and Research Centre, African Technology and Research Centre, Red Cross, Coca Cola
+                        Industries, Voltalia Kenya Limited.</p>
+
+                    <h5>Hospitality/Freight Industry</h5>
+                    <p>Mapping Itd (Ruiru-eastern bypass), East Africa Terminals Ltd (EATL-Mombasa). Sports view hotel
+                        kasarani, White sands Hotel (Security Consultancy), Lambada (Security Consultancy) Group Hotel,
+                        Shaza Plaza (Consultancy), Master Garden Hotel (All these are stationed in Mombasa), the Kenya Red
+                        Cross Training School, Bounty Hotels Nairobi, The BOMA Hotels (Kenya Red Cross), Sunshine Medical
+                        and Diagnostic Hospital, Bonds Hotel Upper Hill, Sultan group of hotels, - Nairobi etc.</p>
+
+                    <h5>Learning Institutions</h5>
+                    <p>Markuz-udul(Athi River) Silver gate Academy, CITAM Institutions, Kapkong High School, Kapkeben High
+                        School, Rongo University (Security Consultancy), Kabianga University -(Security Consultancy) Gifted
+                        hands kilelesha.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Commercial/Residential Properties</h5>
+                    <p>Golden Miles(allsorps), Princess park, (Lavingtone),Lynwood (Mlolongo), RiverPark Estate (Athi
+                        River), Sidai Village(Athi River), Great Wall Apartments (Mlolongo), Spring Ville Apartments
+                        (Syokimau), Adrian group (Kikuyu),Lifestyle Apartments, Kantaria Properties, Jasmin center, Lanyavu
+                        Gardens Ltd, Amara Apartments, Great wall Shangai Road, Hass Consultants Estate Developers, Mac
+                        Gardens, Shade Acres, Rangers Court (South C), Cobra Apartments (South B), Daidai Residence (South
+                        B), Zainulabidin Shariff (South B)</p>
+
+                    <h5>Industries</h5>
+                    <p>GOLDEN Africa Kenya Itd (Athi River), BOBMIL Industries, Maxam Heineken Distributors, Equator
+                        Bottlers (Coca Cola), Mamba Tanks, Samura Engineers, Jeet Motors Ltd among others</p>
+
+                    <h5>Construction Firms</h5>
+                    <p>Nipsan Construction Company, Mark Properties Constructions, Erdermann Constructions, Lake Basin Mall
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
+    <!--== End Clients Area Wrapper ==-->
 
-            <div class="col-lg-8">
-                <div class="team-content-wrap slick-dots--light mtn-md-5">
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="{{ asset('frontend/assets/img/team/01.jpg') }}" alt="Team-Businex" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Lucy Farnando</a></h5>
-                            <span class="designation">CTO & Founder</span>
-                        </div>
+    <!--== Start Fun Fact Area Wrapper ==-->
+    <div class="fun-fact-area sm-top parallax" data-parallax-speed="0.70"
+        data-bg="{{ asset('frontend/assets/img/fun-fact-bg.jpg') }}">
+        <div class="container">
+            <div class="row mtn-40">
+                <div class="col-6 col-md-3 text-center">
+                    <div class="counter-item">
+                        <h2 class="counter-number"><span class="counter">2654</span></h2>
+                        <h6 class="counter-txt">Happy Clients</h6>
                     </div>
+                </div>
 
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="{{ asset('frontend/assets/img/team/02.jpg') }}" alt="Team-Businex" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">James Anderson</a></h5>
-                            <span class="designation">Creative Head</span>
-                        </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="counter-item">
+                        <h2 class="counter-number"><span class="counter">1520</span></h2>
+                        <h6 class="counter-txt">Project Done</h6>
                     </div>
+                </div>
 
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="{{ asset('frontend/assets/img/team/03.jpg') }}" alt="Team-Businex" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Thomas Nancy</a></h5>
-                            <span class="designation">Marketing Head</span>
-                        </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="counter-item">
+                        <h2 class="counter-number"><span class="counter">120</span></h2>
+                        <h6 class="counter-txt">Awards Win</h6>
                     </div>
+                </div>
 
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="{{ asset('frontend/assets/img/team/04.jpg') }}" alt="Team-Businex" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Nail Mathue</a></h5>
-                            <span class="designation">Head of Research</span>
-                        </div>
+
+                <div class="col-6 col-md-3 text-center">
+                    <div class="counter-item">
+                        <h2 class="counter-number"><span class="counter">3580</span></h2>
+                        <h6 class="counter-txt">Cups Coffee</h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--== End Team Area Wrapper ==-->
-
-<!--== Start Blog Area Wrapper ==-->
-<div class="blog-area-wrapper sm-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="section-title">
-                    <h6>Our Blog</h6>
-                    <h2 class="mb-0">Latest update <br>from our blog post</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mtn-35">
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">New Business Strategy</a></h2>
-                        <p>We have great creative team they always ready
-                            to helped you. voluptatem quiase voluptase
-                            aspernatur auted fugit</p>
-
-                        <div class="blog-meta">
-                            <a href="#">By: Albert Max</a>
-                            <a href="#">May 01, 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">Master Business Plan</a></h2>
-                        <p>We have great creative team they always ready
-                            to helped you. voluptatem quiase voluptase
-                            aspernatur auted fugit</p>
-
-                        <div class="blog-meta">
-                            <a href="#">By: Mohin Smith</a>
-                            <a href="#">May 03, 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">Corporate Conference 2019</a></h2>
-                        <p>We have great creative team they always ready
-                            to helped you. voluptatem quiase voluptase
-                            aspernatur auted fugit</p>
-
-                        <div class="blog-meta">
-                            <a href="#">By: Raju Ahammad</a>
-                            <a href="#">May 04, 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Blog Area Wrapper ==-->
-
-<!--== Start Brand Logo Area Wrapper ==-->
-<div class="brand-logo-area sm-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="brand-logo-content slick-row-20">
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/01.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/02.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/03.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/04.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/05.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/03.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="{{ asset('frontend/assets/img/brand-logo/01.png') }}" alt="Businex-Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Brand Logo Area Wrapper ==-->
-
-<!--== Start Fun Fact Area Wrapper ==-->
-<div class="fun-fact-area sm-top parallax" data-parallax-speed="0.70" data-bg="{{ asset('frontend/assets/img/fun-fact-bg.jpg') }}">
-    <div class="container">
-        <div class="row mtn-40">
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">2654</span></h2>
-                    <h6 class="counter-txt">Happy Clients</h6>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">1520</span></h2>
-                    <h6 class="counter-txt">Project Done</h6>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">120</span></h2>
-                    <h6 class="counter-txt">Awards Win</h6>
-                </div>
-            </div>
-
-
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">3580</span></h2>
-                    <h6 class="counter-txt">Cups Coffee</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Fun Fact Area Wrapper ==-->
+    <!--== End Fun Fact Area Wrapper ==-->
 
 @endsection
