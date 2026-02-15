@@ -115,37 +115,6 @@
     </div>
     <!--== End Slider Area Wrapper ==-->
 
-    <!--== Start About Area Wrapper ==-->
-    <div class="about-area-wrapper sm-top">
-        <div class="container">
-            <div class="row align-items-lg-center">
-                <div class="col-md-6 col-lg-5">
-                    <figure class="about-thumb">
-                        <img src="{{ asset('frontend/assets/img/about.jpg') }}" alt="Businex-About" />
-                    </figure>
-                </div>
-
-                <div class="col-md-6 col-lg-7">
-                    <div class="about-content">
-                        <h6>ABOUT US</h6>
-                        <h2>Oculus Security <br> Services</h2>
-                        <span class="about-since">Since 2010</span>
-                        <p>The idea of building OSS was informed by the worrying gap existing due to the
-                            failure or lack of reliable security outfit to complement and supplement
-                            government efforts to provide adequate security to private entities. Oculus
-                            Security Services (OSS) is a family of special breeds of operatives bringing
-                            together retired Kenya Defense Forces officers and National Police Service
-                            with world class training and thorough understanding of security, individuals
-                            from other security agencies and high-end corporate world, all bound by a
-                            common eagerness; thirst for security.</p>
-                        <a href="about.html" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--== End About Area Wrapper ==-->
-
     <!--== Start Feature Area Wrapper ==-->
     <div class="feature-area-wrapper sm-top">
         <div class="container">
@@ -306,103 +275,6 @@
         </div>
     </div>
     <!--== End Service Area Wrapper ==-->
-
-    <!--== Start Testimonial Area Wrapper ==-->
-    <div class="testimonial-area bg-offwhite sp-y sm-top">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title mb-0">
-                        <h6>TRAINING PROGRAMME</h6>
-                        <h2>OSS Training Institute</h2>
-                        <p>OSS Training Institute is a subsidiary institution under Oculus security services Ltd. solely
-                            focusing on the training of
-                            security officers in an extensive in-house training based on a formal curriculum. The following
-                            are some of the modules
-                            covered for ideal security management.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 ms-auto">
-                    <div class="testimonial-content-wrap">
-                        <div class="training-modules" style="background: #fff; padding: 30px; border-radius: 5px;">
-                            <h4>Security Management and Guarding Modules</h4>
-                            <ul style="list-style-type: disc; padding-left: 20px;">
-                                <li>Security management</li>
-                                <li>Crime Prevention</li>
-                                <li>Access and Egress Control</li>
-                                <li>Criminal law and criminal procedures</li>
-                                <li>Counter-Terrorism</li>
-                                <li>Public relations</li>
-                                <li>Intelligence gathering</li>
-                                <li>Communication skills</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-lg-6 mb-4">
-                    <div class="training-modules"
-                        style="background: #fff; padding: 30px; border-radius: 5px; height: 100%;">
-                        <h4><i class="mdi mdi-account-search"></i> RECRUITMENT & VETTING</h4>
-
-                        <h5 class="mt-3">RECRUITMENT REQUIREMENTS:</h5>
-                        <ul style="list-style: none; padding-left: 0;">
-                            <li><i class="mdi mdi-check-circle-outline"></i> Oral and written interview test</li>
-                            <li><i class="mdi mdi-check-circle-outline"></i> Background Checks</li>
-                            <li><i class="mdi mdi-check-circle-outline"></i> Physical fitness test</li>
-                            <li><i class="mdi mdi-check-circle-outline"></i> Medical fitness test</li>
-                        </ul>
-
-                        <h5 class="mt-3">Documents:</h5>
-                        <ul style="list-style: none; padding-left: 0;">
-                            <li><i class="mdi mdi-file-document"></i> 2 current Passport photos</li>
-                            <li><i class="mdi mdi-file-document"></i> National ID</li>
-                            <li><i class="mdi mdi-file-document"></i> Birth certificate</li>
-                            <li><i class="mdi mdi-file-document"></i> 3 Referees</li>
-                            <li><i class="mdi mdi-file-document"></i> Valid Certificate of good conduct</li>
-                            <li><i class="mdi mdi-file-document"></i> KCPE & KCSE certificate</li>
-                            <li><i class="mdi mdi-file-document"></i> School Leaving certificates</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mb-4">
-                    <div class="training-modules"
-                        style="background: #fff; padding: 30px; border-radius: 5px; height: 100%;">
-                        <h4><i class="mdi mdi-shield-account"></i> SECURITY OFFICER PROFILE</h4>
-
-                        <p class="mt-3">We Recruit highly qualified Trainees with the following specifications:</p>
-                        <ul style="list-style: none; padding-left: 0;">
-                            <li><i class="mdi mdi-account-check"></i> 24-45 years</li>
-                            <li><i class="mdi mdi-account-check"></i> Form 4, D+ and above</li>
-                            <li><i class="mdi mdi-account-check"></i> Good written and spoken English & Kiswahili</li>
-                            <li><i class="mdi mdi-account-check"></i> Well groomed and presentable</li>
-                            <li><i class="mdi mdi-account-check"></i> Village sketch maps, nuclear and extended family
-                                background, employment background, referee checks etc.</li>
-                        </ul>
-
-                        <p class="mt-3">Our security officers undergo 2 weeks basic Guarding Course (BGC) covering:</p>
-                        <ul style="list-style: none; padding-left: 0;">
-                            <li><i class="mdi mdi-security"></i> Security threats/ Protection of information</li>
-                            <li><i class="mdi mdi-security"></i> Introduction to Criminal Offences</li>
-                            <li><i class="mdi mdi-security"></i> Arrest and restrain by Private security Operatives</li>
-                            <li><i class="mdi mdi-security"></i> Roles and duties of security officers</li>
-                            <li><i class="mdi mdi-security"></i> Discipline</li>
-                            <li><i class="mdi mdi-security"></i> Vetting/observations</li>
-                            <li><i class="mdi mdi-security"></i> Customer care/public relations</li>
-                            <li><i class="mdi mdi-security"></i> Occurrence book and report writing</li>
-                            <li><i class="mdi mdi-security"></i> Patrolling techniques</li>
-                            <li><i class="mdi mdi-security"></i> Handling of crime scenes</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--== End Testimonial Area Wrapper ==-->
 
     <!--== Start Team Area Wrapper ==-->
     <div class="team-area-wrapper sp-y" style="background-color: #fff;">
@@ -597,64 +469,6 @@
         </div>
     </div>
     <!--== End Security Policy Area Wrapper ==-->
-
-    <!--== Start Security Operational Procedures Area Wrapper ==-->
-    <div class="service-area-wrapper sm-top" style="padding-bottom: 70px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="section-title">
-                        <h6>OUR SECURITY OPERATIONAL PROCEDURES</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="procedure-item">
-                        <h5>Incident Detection & Reporting</h5>
-                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
-                            <li><i class="mdi mdi-check"></i> Guards Identify Incident</li>
-                            <li><i class="mdi mdi-check"></i> Secure the Scene</li>
-                            <li><i class="mdi mdi-check"></i> Report to Control Room</li>
-                        </ul>
-                        <p>All security incidents are immediately detected or identified by guards on duty, who prioritize
-                            safety and secure the scene while promptly reporting to the control room. The guard provides
-                            clear details on the nature, location, and severity of the incident, maintaining continuous
-                            communication until further instructions are given.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="procedure-item">
-                        <h5>Control Room & Backup Dispatch</h5>
-                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
-                            <li><i class="mdi mdi-check"></i> Log & Assess Incident</li>
-                            <li><i class="mdi mdi-check"></i> Dispatch Backup Team</li>
-                            <li><i class="mdi mdi-check"></i> Guide & Monitor Response</li>
-                        </ul>
-                        <p>Upon receipt of the report, the control room logs the incident, assesses its seriousness, and
-                            initiates an appropriate response. This includes issuing real-time guidance to the guard,
-                            notifying supervisors, and dispatching backup or rapid response teams to reinforce the site and
-                            restore control where necessary.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="procedure-item">
-                        <h5>Investigation & Police Reporting</h5>
-                        <ul style="list-style: none; padding-left: 0; margin-bottom: 15px; font-weight: bold; color: #555;">
-                            <li><i class="mdi mdi-check"></i> Engage Law Enforcement</li>
-                            <li><i class="mdi mdi-check"></i> Handover Evidence</li>
-                            <li><i class="mdi mdi-check"></i> Document & Review</li>
-                        </ul>
-                        <p>For major incidents or criminal cases, police are promptly engaged, and suspects, evidence, and
-                            scene details are formally handed over. A detailed incident and investigation report is
-                            prepared, reviewed by management, and shared with the client, with corrective actions
-                            implemented to strengthen security and prevent recurrence.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--== End Security Operational Procedures Area Wrapper ==-->
 
     <!--== Start Technical Services Area Wrapper ==-->
     <div class="technical-services-area-wrapper sm-top" style="background-color: #f8f9fa; padding: 70px 0;">
