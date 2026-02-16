@@ -12,6 +12,7 @@ Route::prefix('services')->group(function () {
     Route::get('/special-services', [PageController::class, 'specialServices'])->name('services.special-services');
     Route::get('/k9-unit', [PageController::class, 'k9Unit'])->name('services.k9-unit');
     Route::get('/consultancy-training', [PageController::class, 'consultancyTraining'])->name('services.consultancy-training');
+    Route::get('/technology-solutions', [PageController::class, 'technologySolutions'])->name('services.technology-solutions');
 });
 
 Route::get('/sectors', [PageController::class, 'sectors'])->name('sectors');

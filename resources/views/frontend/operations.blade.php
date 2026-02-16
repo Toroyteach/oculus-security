@@ -3,7 +3,8 @@
 @section('content')
 
     <!--== Start Page Header Area ==-->
-    <div class="service-area-top parallax" data-parallax-speed="0.75" data-bg="{{ asset('frontend/assets/img/service/service-bg.jpg') }}">
+    <div class="service-area-top parallax" data-parallax-speed="0.75"
+        data-bg="{{ asset('frontend/assets/img/service/service-bg.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -15,6 +16,76 @@
         </div>
     </div>
     <!--== End Page Header Area ==-->
+
+    <!--== Start Security Policy Area Wrapper ==-->
+    <div class="blog-area-wrapper sm-top" style="background-color: #f8f9fa; padding-bottom: 70px; padding-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h6>OUR SECURITY POLICY</h6>
+                        <p style="max-width: 800px; margin: auto;">Oculus security services Ltd had fully studied and
+                            understood the information of security risks assignment and all challenges faces risk assessment
+                            to enables us execute and deliver good services to our client's. This plan ensures that
+                            appropriate mitigation strategies are implemented correctly as per our recommendations. Oculus
+                            security services Ltd will work with you hand in hand to assess Tree Shade policies, processes,
+                            and technologies to identify weaknesses, categorize risks, and recommend improvements. This
+                            service helps to secure your environment and improve compliance by providing a comprehensive
+                            assessment of each important aspect of your compound' security program to include but not
+                            limited to:</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mtn-35">
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Internal Controls</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">External Controls</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Physical security</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Policies and procedures</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Vulnerabilities and threats</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            <h2 class="h5 text-center">Tour of duty.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Security Policy Area Wrapper ==-->
 
     <!--== Start Security Operational Procedures Area Wrapper ==-->
     <div class="service-area-wrapper sp-y">

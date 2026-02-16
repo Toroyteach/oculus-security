@@ -115,6 +115,29 @@
                         </div>
                         <!-- End Service Item -->
                     </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <!-- Start Service Item -->
+                        <div class="service-item">
+                            <figure class="service-thumb">
+                                <a href="{{ route('services.technology-solutions') }}"><img
+                                        src="{{ asset('frontend/assets/img/service/02.jpg') }}" alt="Technology Solutions" /></a>
+
+                                <figcaption class="service-txt">
+                                    <h5>Technology Solutions</h5>
+                                </figcaption>
+                            </figure>
+
+                            <div class="service-content">
+                                <div class="service-content-inner">
+                                    <h5><a href="{{ route('services.technology-solutions') }}" class="stretched-link">Technology Solutions</a>
+                                    </h5>
+                                    <p>CCTV installation & monitoring, Alarms installation & response, Access control, biometrics & turnstiles, Fire Alarm systems, Fire Suppression Systems, Electric and razor fences, Vehicle tracking, Fleet Management & Tagging, Walk through detectors, Bomb detectors, X-ray machines, Tracking Services, Home Automation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+                    </div>
                 </div>
             </div>
         </div>
